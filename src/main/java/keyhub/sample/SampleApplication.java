@@ -1,4 +1,4 @@
-package io.github.keyhubprojects.sample;
+package keyhub.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package io.github.keyhubprojects.sample;
+package keyhub.sample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
