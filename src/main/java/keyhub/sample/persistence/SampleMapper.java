@@ -20,7 +20,6 @@ public interface SampleMapper {
 	@Select("""
   			select ID as id, NM as name, REG_DTM as registeredDateTime, UPD_DTM as updatedDateTime
   			from SAMPLE_ROOT_AGGREGATE where ID = #{id}
-  			and 1 = 1
 		""")
 	Optional<SampleRootSimpleOutDto> findSimple(Long id);
 
