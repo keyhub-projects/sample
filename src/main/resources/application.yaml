@@ -24,3 +24,15 @@ spring:
         plan_cache_max_size: 2048
         in_clause_parameter_padding: true
         plan_parameter_metadata_max_size: 2048
+  docker:
+    compose:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, prometheus
+  metrics:
+    export:
+      prometheus:
+        enabled: true
